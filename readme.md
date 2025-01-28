@@ -6,5 +6,3 @@
 /_____/____/ .___/\___/\___/\__/_/   \____/_/  /_/\__,_/_/_/   
           /_/                                                  
 </pre>
-
-*Use this on [Telegram](https://t.me/espectromailbot)*
