@@ -33,6 +33,9 @@ bot.onText(/\/generate/, async (msg) => {
 async function getTempMail(){
     try {
         // Use a stored session ID or cookie if available
+        //https://rapidapi.com/Privatix/api/temp-mail
+
+
         var endPoint = 'https://10minutemail.com/session/address';
         var res = await fetch(endPoint, {
             method: 'GET',
@@ -56,6 +59,8 @@ async function getTempMail(){
 }
 
 async function getEmails(){
+    //https://rapidapi.com/Privatix/api/temp-mail
+
     var endPoint='https://10minutemail.com/messages/messagesAfter/0';
     var res=await fetch(endPoint);
     var Emails= await res.json();
