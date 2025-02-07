@@ -7,4 +7,4 @@
           /_/                                                  
 </pre>
 
-API under maintenance, temporarily unavailable.
+Bot will be on the rails soon.. stay tuned
